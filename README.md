@@ -1,7 +1,5 @@
-#
-# SENTIMENT ANALYSIS
-# Words list in italian language
-#
+#SENTIMENT ANALYSIS
+## Words list in italian language
 
 - pos.words.txt   Words with a positive meaning (italian language)
 - neg.words.txt   Words with a negative meaning (italian language)
