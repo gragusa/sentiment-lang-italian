@@ -18,11 +18,13 @@ score <- function(sentences, pos.words, neg.words, exc.words, .progress='none')
                  function(sentence, pos.words, neg.words exc.words)
                  {
                    # remove punctuation
-                   sentence <- gsub("[[:punct:]]", "", sentence)
+                   sentence <- gsub('[[:punct:]]', '', sentence)
                    # remove control characters
-                   sentence <- gsub("[[:cntrl:]]", "", sentence)
+                   sentence <- gsub('[[:cntrl:]]', '', sentence)
                    # remove digits?
                    sentence <- gsub('\\d+', '', sentence)
+                   # remove extra spaces
+                   sentence <- gsub('^\\s+|\\s+$', '', tt)
                    
                    # define error handling function when trying tolower
                    tryTolower <- function(x)
