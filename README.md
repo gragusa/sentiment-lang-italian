@@ -1,7 +1,7 @@
 #SENTIMENT ANALYSIS
-## Words list in italian language
+## Words list - italian language
 
-- pos.words.txt   Words with a positive meaning (italian language)
-- neg.words.txt   Words with a negative meaning (italian language)
-- exc.words.txt   Words to exclude (italian language and spurious chars)
-- score.R         Reworked score function to exclude stop words
+- lexicon/pos.words.txt.gz    Positive words
+- lexicon/neg.words.txt.gz    Negative words
+- lexicon/exc.words.txt.gz    Stop words and spurious chars
+- score.R                     Reworked score function

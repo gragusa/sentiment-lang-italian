@@ -1,7 +1,5 @@
 #
 # SENTIMENT ANALYSIS
-# Basic function to score sentences
-# + code to exclude stop words
 #
 
 score <- function(sentences, pos.words, neg.words, exc.words, .progress='none')
