@@ -1,7 +1,6 @@
-#SENTIMENT ANALYSIS
-## Words list - italian language
+## Lexicon files
 
-- lexicon/pos.words.txt.gz    Positive words
-- lexicon/neg.words.txt.gz    Negative words
-- lexicon/exc.words.txt.gz    Stop words and spurious chars
-- score.R                     Reworked score function
+- lexicon/pos.words.txt.gz  Positive
+- lexicon/neg.words.txt.gz  Negative
+- lexicon/exc.words.txt.gz  Exclude
+- score.R                   Reworked score function
