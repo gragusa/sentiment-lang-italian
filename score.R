@@ -13,7 +13,7 @@ score <- function(sentences, pos.words, neg.words, exc.words, .progress='none')
   
   # create simple array of scores with laply
   scores <- laply(sentences,
-                 function(sentence, pos.words, neg.words exc.words)
+                 function(sentence, pos.words, neg.words, exc.words)
                  {
                    # remove punctuation
                    sentence <- gsub('[[:punct:]]', '', sentence)
